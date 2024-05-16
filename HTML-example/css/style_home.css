@@ -1,0 +1,107 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+body {
+    background: url(../images/limetausta.jpg) center center fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2D2D2A;
+    display: flex;
+    height: 5rem;
+}
+
+header img {
+
+}
+
+nav {
+    background-color: #2D2D2A;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    background-color: #2D2D2A;
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+li {
+    background-color: #2D2D2A;
+    width: 12.5rem;
+    height: 100%;
+}
+
+li a {
+    background-color: #2D2D2A;
+    color: #2ed32e;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 5rem;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+li a:hover {
+    background-color: rgba(38, 36, 26, 0.45);
+}
+
+main {
+
+    display: block;
+    flex-wrap: wrap;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+article {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+article img {
+    padding: 0;
+    width: 95%;
+    height: 337px;
+    object-fit: cover;
+    border: 1px black inset;
+    border-radius: 8px;
+}
+
+p {
+    display: block;
+    color: black;
+    background-color: #d9ffcf;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px black inset;
+
+}
