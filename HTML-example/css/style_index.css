@@ -1,0 +1,181 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+body {
+    background: url(../images/limetausta.jpg) center center fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2D2D2A;
+    display: flex;
+    height: 5rem;
+}
+
+.picname {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+}
+
+header img {
+    width: 5rem;
+    color: #2ed32e;
+}
+
+header h1 {
+    width: 15rem;
+    padding-left: 1rem;
+    color: #2ed32e;
+}
+
+nav {
+    background-color: #2D2D2A;
+    width: 50%;
+    height: 100%;
+    justify-content: right;
+}
+
+ul {
+    background-color: #2D2D2A;
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+li {
+    background-color: #2D2D2A;
+    width: 12.5rem;
+    height: 100%;
+}
+
+li a {
+    background-color: #2D2D2A;
+    color: #2ed32e;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: rgba(38, 36, 26, 0.45);
+}
+
+main {
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+main img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px black inset;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 0 5rem 0;
+
+}
+
+h5 {
+display: none;
+}
+
+article {
+    background-color: #d9ffcf;
+    color: black;
+    width: 32%;
+    margin: 0.5%;
+    border-radius: 8px;
+    border: 1px black solid;
+    box-sizing: border-box;
+    height: fit-content;
+    min-height: 30rem;
+}
+
+h4 {
+    height: 10%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 200%;
+}
+
+article p {
+    border: none;
+    font-size: 100%;
+}
+
+figure {
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+}
+
+.doubleimg {
+    width: 50%;
+}
+
+figure img {
+    width: 100%;
+    height: fit-content;
+}
+
+p {
+    display: block;
+    color: black;
+    background-color: #d9ffcf;
+    width: 95%;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px black solid;
+    font-size: 150%;
+}
+
+article a {
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    background-color: #2D2D2A;
+    color: #2ed32e;
+
+    display: block;
+    line-height: 3rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
